@@ -1,6 +1,6 @@
 # Haxe/hxnodejs externs for the [redislock](https://www.npmjs.com/package/redislock) npm library
 
-Tested using `redislock` version **2.0.1**
+Tested using `redislock` version **1.2.0**
 
 Example:
 ```haxe
