@@ -1,0 +1,15 @@
+{
+  "name": "hxnodejs-redislock",
+  "url": "https://github.com/proletariatgames/hxnodejs-redislock",
+  "license": "MIT",
+  "classPath": "src",
+  "tags": ["nodejs", "redis", "db", "js"],
+  "description": "Externs for the redislock NPM module",
+  "releasenote": "Initial release",
+  "version": "1.2.0",
+  "contributors": ["Proletariat", "lpetre", "danogles", "waneck"],
+  "dependencies": {
+    "hxnodejs": "",
+    "hxnodejs-redis": ""
+  }
+}
