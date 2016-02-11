@@ -13,7 +13,7 @@ var lock = RedisLock.acquire(client, {
   delay: 100
 });
 
-lock.acquire('app:feature:lock", function(err) {
+lock.acquire('app:feature:lock', function(err) {
   // if (err != null) failed to acquire lock
   
   lock.release(function(err) {
