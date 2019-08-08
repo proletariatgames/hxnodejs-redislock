@@ -7,7 +7,7 @@ extern class Lock {
     error on failure, and returns a promise if no callback is supplied. If invoked in the context of a promise, it may
     throw a LockAcquisitionError.
    **/
-  @:overload(function (key:String, cback:Null<js.Error>->Void):Void {})
+  @:overload(function (key:String, cback:Null<js.lib.Error>->Void):Void {})
   function acquire(key:String):Void;
 
   /**
@@ -15,7 +15,7 @@ extern class Lock {
     failure, and returns a promise if no callback is supplied. If invoked in the context of a promise, it may throw a
     LockReleaseError.
    **/
-  @:overload(function (cback:Null<js.Error>->Void):Void {})
+  @:overload(function (cback:Null<js.lib.Error>->Void):Void {})
   function release():Void;
 
   /**
@@ -23,6 +23,6 @@ extern class Lock {
     error on failure, and returns a promise if no callback is supplied. If invoked in the context of a promise, it may
     throw a LockExtendError.
    **/
-  @:overload(function (time:Float, cback:Null<js.Error>->Void):Void {})
+  @:overload(function (time:Float, cback:Null<js.lib.Error>->Void):Void {})
   function extend(time:Float):Void;
 }
