@@ -5,9 +5,9 @@
   "classPath": "src",
   "tags": ["nodejs", "redis", "db", "js"],
   "description": "Externs for the redislock NPM module",
-  "releasenote": "Initial release",
-  "version": "1.2.0",
-  "contributors": ["Proletariat", "lpetre", "danogles", "waneck"],
+  "releasenote": "Update to Haxe 4",
+  "version": "1.2.1",
+  "contributors": ["Proletariat", "ProletariatDev1"],
   "dependencies": {
     "hxnodejs": "",
     "hxnodejs-redis": ""
